@@ -1,0 +1,16 @@
+.content {
+    background-color: aliceblue;
+    border-radius: 10px;
+}
+
+form,.title {
+    padding: 20px;
+}
+
+.title h1 {
+    float: left;
+}
+.title > a {
+    margin-top: 30px;
+    float: right;
+}

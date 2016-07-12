@@ -1,0 +1,50 @@
+h4 {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.user-name {
+    color: #99ee99;
+    text-decoration: underline;
+    font-style: italic;
+    margin-left: 3px;
+}
+
+.money,.history {
+    margin-top: 2px;
+}
+
+.currency {
+    color: #99ee99;
+}
+
+.added > td {
+    background-color: #99ee99;
+}
+
+.diminished > td {
+    background-color: red;
+}
+
+.money,.history {
+    height: 300px;
+}
+
+.money {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.history {
+    overflow: auto;
+}
+
+.chart > .ab {
+    color: #99ee99;
+    text-align: center;
+    line-height: 270px;
+}
+
+.chart {
+    margin-top: 5px;
+    height: 350px;
+}

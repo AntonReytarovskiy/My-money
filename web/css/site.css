@@ -1,0 +1,39 @@
+html,
+body {
+    height: 100%;
+    overflow: hidden;
+}
+
+.navs {
+    background-color: #1a1a1a;
+    color: white;
+    height: 100vh;
+    padding: 0;
+}
+
+.nav {
+    height: 100%;
+}
+
+.nav li a {
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16pt;
+    color: #99ee99;
+}
+
+.nav li a:hover {
+    color: black;
+}
+
+.logout {
+    position: absolute;
+    bottom: 0;
+    margin-top: -20px;
+    text-align: center;
+    margin-left: 60px;
+    text-align: center;
+    font-family: 'PT Sans Narrow', sans-serif;
+    font-size: 16pt;
+    color: #99ee99;
+}

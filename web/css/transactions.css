@@ -1,0 +1,45 @@
+p {
+    font-family: 'Cuprum', sans-serif;
+    font-size: 18pt;
+}
+
+.add-transaction {
+    border-right: 1px solid black;
+}
+
+.well {
+    margin-top: 25px;
+}
+
+.transactions {
+    overflow: auto;
+    height: 200px;
+    margin-bottom: 10px;
+}
+
+.category-list {
+    overflow: auto;
+    height: 435px;
+}
+
+tr:hover {
+    cursor: pointer;
+}
+
+.transaction-select {
+    background-color: #28a4c9;
+}
+
+#delete {
+    pointer-events: none;
+    opacity: 0.7;
+    margin-left: -10px;
+}
+
+.category-name {
+    width: 230px;
+}
+
+.category-type {
+    width: 200px;
+}
